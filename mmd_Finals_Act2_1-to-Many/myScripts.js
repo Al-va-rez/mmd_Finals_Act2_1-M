@@ -1,0 +1,1 @@
+$('.inputBox').addClass('border border-gray-500 rounded-md focus:cursor-none focus:outline-red-500');
