@@ -232,7 +232,7 @@
 
                             <!-- ORDER DETAILS -->
                             <tr class="orderRow cursor-pointer hover:bg-gray-50">
-                                <td class="orderOfCustomer" data-customer-id="<?= $order['customer_id'] ?>">
+                                <td class="orderOfCustomer hidden" data-customer-id="<?= $order['customer_id'] ?>">
                                     <?= $order['customer_id'] ?>
                                 </td>
                                 <td class="orderIDCell px-4 py-2"><?= $order['order_id'] ?></td>
